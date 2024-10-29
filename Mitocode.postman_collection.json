@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "3cb394a1-5f9a-4264-841b-4147de0b4674",
+		"name": "Mitocode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10330088",
+		"_collection_link": "https://solar-shadow-885535.postman.co/workspace/PC-PERSONAL~f9bc3619-6a3d-4cc2-92c0-e4a26c32df6a/collection/10330088-3cb394a1-5f9a-4264-841b-4147de0b4674?action=share&source=collection_link&creator=10330088"
+	},
+	"item": [
+		{
+			"name": "Listar Estudiantes Por Edad Desc",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJ0ZXN0IjoidmFsdWUtZGVtbyIsInJvbGVzIjpbIkFETUlOIl0sInVzZXJuYW1lIjoiYWRtaW4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwNTI4Mzk5OCwiZXhwIjoxNzA1Mjg0MDI4fQ.ELg_Ov7hLt0X8UGCZdx957g744c31dSV6X6AEsu1BRDShIOmopxhWePVIpKoX6B7v11y2joStoF1EAa_4Q7DBQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9091/estudiantes/edad/desc",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"estudiantes",
+						"edad",
+						"desc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Estudiantes Por Edad Asc",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJ0ZXN0IjoidmFsdWUtZGVtbyIsInJvbGVzIjpbIkFETUlOIl0sInVzZXJuYW1lIjoiYWRtaW4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwNTI4Mzk5OCwiZXhwIjoxNzA1Mjg0MDI4fQ.ELg_Ov7hLt0X8UGCZdx957g744c31dSV6X6AEsu1BRDShIOmopxhWePVIpKoX6B7v11y2joStoF1EAa_4Q7DBQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9091/estudiantes/edad/asc",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"estudiantes",
+						"edad",
+						"asc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Cursos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJ0ZXN0IjoidmFsdWUtZGVtbyIsInJvbGVzIjpbIkFETUlOIl0sInVzZXJuYW1lIjoiYWRtaW4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwNTI4MjE2OCwiZXhwIjoxNzA1MjgyMTk4fQ.vEhKySngjTNn_fPnG5lyjAo59LW2D2In3I5W02kn6NP64CEHJxxICc6f_I9llp_7O0AUupAu_1ebtt1mKmYTtw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9091/cursos",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"cursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9091/login",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Estudiantes Por Edad Desc Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJ0ZXN0IjoidmFsdWUtZGVtbyIsInJvbGVzIjpbIkFETUlOIl0sInVzZXJuYW1lIjoiYWRtaW4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwNTI4Mzk3MSwiZXhwIjoxNzA1Mjg0MDAxfQ.LWsqp-u4NogeS33uFFF_UNa7A1VtbOcMS2TBXIyvh9k7QtJPJcNfJCL1g1QVfiagdP7qQ0YQEwq9PAMa0NvDEw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombres\": \"Maria\",\r\n    \"apellidos\": \"Martinez Cumpa\",\r\n    \"dni\": \"70840755\",\r\n    \"edad\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9091/estudiantes",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"estudiantes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
